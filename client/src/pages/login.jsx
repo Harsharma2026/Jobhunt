@@ -45,7 +45,7 @@ export default function Login(){
                     <div class="pt-12 pb-12 text-center">
                         <p>
                             Don&#x27;t have an account?
-                            <Link href="#" class="font-semibold underline">
+                            <Link to="/signup" class="font-semibold underline">
                                 Register here.
                             </Link>
                         </p>
