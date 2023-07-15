@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 // import { useEffect } from "react";
-import Logo from "../components/Logo";
+import Logo from "../Components/Logo";
 import logo1 from "../images/logo1.png"
 import logo2 from "../images/logo2.png"
 import logo3 from "../images/logo3.png";
