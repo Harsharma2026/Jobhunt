@@ -1,20 +1,20 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-// import { useEffect } from "react";
 import Logo from "../Components/Logo";
 import logo1 from "../images/logo1.png"
 import logo2 from "../images/logo2.png"
 import logo3 from "../images/logo3.png";
 import logo4 from "../images/logo4.png";
 import logo5 from "../images/logo5.png"
-// import logo6 from "../images/logo6.png";
 import logo7 from "../images/logo7.png";
-// import logo8 from "../images/logo8.png";
 import logo9 from "../images/logo9.png";
-// import logo10 from "../images/logo10.png";
+
 
 
 export default function Landing() {
+
+  const Compete = () => {
+  }
+
   return (
     <div className="grid gap-20">
       {/* navbar starts */}
@@ -66,9 +66,9 @@ export default function Landing() {
           >
             <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white   ">
               <li>
-                <a
+                <button
                   href="#"
-                  class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-[#7ED957] md:p-0 "
+                  class="block py-2 pl-3 pr-4 text-white bg-blue-700  rounded md:bg-transparent md:text-[#7ED957] md:p-0 "
                   aria-current="page"
                 >
                   <img
@@ -76,39 +76,39 @@ export default function Landing() {
                     class="flex h-6"
                     alt="Home"
                   />
-                </a>
+                </button>
               </li>
               <li>
-                <a
+                <button
                   href="#"
                   class="font-bold block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#7ED957] md:p-0 "
                 >
                   Learn
-                </a>
+                </button>
               </li>
               <li>
-                <a
+                <button
                   href="#"
                   class="font-bold block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#7ED957] md:p-0 "
                 >
                   E-Resources
-                </a>
+                </button>
               </li>
               <li>
-                <a
+                <button
                   href="#"
                   class="font-bold block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#7ED957] md:p-0 "
                 >
                   Find Jobs
-                </a>
+                </button>
               </li>
               <li>
-                <a
+                <button
                   href="#"
                   class="font-bold block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#7ED957] md:p-0 "
                 >
                   Compete
-                </a>
+                </button>
               </li>
             </ul>
           </div>
@@ -352,7 +352,7 @@ export default function Landing() {
             </h1>
             <div class="mx-auto rounded-lg font-black mt-5 text-zinc-400 md:mt-12 md:max-w-lg text-center lg:text-lg">
               <button class="bg-tkb border text-sm text-white py-3 px-7 rounded-full">
-                Join Jobhunt
+                About Jobhunt
               </button>
             </div>
           </div>
@@ -436,7 +436,7 @@ export default function Landing() {
               </p>
 
               <p class="mt-4 text-sm text-center text-gray-400 lg:text-right lg:mt-0">
-                T&C &nbsp; Career &nbsp; Privacy & Policy &nbsp; Developers
+              T&C &nbsp; Careers &nbsp; Privacy & Policy &nbsp; Developers
               </p>
             </div>
           </div>
