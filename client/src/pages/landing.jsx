@@ -1,5 +1,8 @@
 import React from "react";
-import Logo from "../Components/Logo";
+
+
+import Logo from '../components/Logo'
+
 import logo1 from "../images/logo1.png"
 import logo2 from "../images/logo2.png"
 import logo3 from "../images/logo3.png";
@@ -181,102 +184,102 @@ export default function Landing() {
           </span>
         </h1>
         <div className="app">
-      <div className="logo-grid">
-        <Logo image={logo1} speed={5} />
-        <Logo image={logo3} speed={5} />
-        <Logo image={logo4} speed={5} />
-        <Logo image={logo9} speed={5} />
-        <Logo image={logo7} speed={5} />
-        <Logo image={logo2} speed={5} />
-        <Logo image={logo5} speed={5} />
-        <Logo image={logo1} speed={5} />
-        {/* Add more Logo components with different images and speeds */}
-      </div>
-    </div>
-      </div>
-
-      {/* <-- Cards Section-1 --> */}
-      <div>
-      <div class="container mx-auto">
-  <div class="flex justify-center gap-8">
-    <div class="bg-[#E0EEFE] shadow-md rounded-lg p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative">
-      <img src="https://cdn.unstop.com/uploads/images/home/learn-vector-image.png?d=760x404" alt="" />
-      <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 font-serif absolute bottom-0 left-0 right-0 text-center text-2xl font-extrabold mb-4">Learn</h1>
-    </div>
-    <div class="bg-[#ECE9FF] shadow-md rounded-lg p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative">
-      <img src="https://cdn.unstop.com/uploads/images/home/practice-vector-image.png?d=760x404" alt="" />
-      <h1 class="bg-clip-text text-transparent bg-gradient-to-tr from-violet-600 to-orange-300 font-serif absolute bottom-0 left-0 right-0 text-center text-2xl font-extrabold mb-4">Practice</h1>
-    </div>
-    <div class="bg-[#FFF3D8] shadow-md rounded-lg p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative">
-      <img src="https://cdn.unstop.com/uploads/images/home/mentorships-vector-image.png?d=760x404" alt="" />
-      <h1 class="text-orange-500 font-serif absolute bottom-0 left-0 right-0 text-center text-2xl font-extrabold mb-4">Find Jobs</h1>
-    </div>
-  </div>
-</div>
-
-
-      {/* <-- Cards Section-2 --> */}
-
-      <div class="container mx-auto py-14">
-        <h1 class="font-serif italic text-xl font-extrabold leading-10 tracking-tight text-left text-black text-center  sm:leading-none md:text-xl text-xl lg:text-5xl">
-          <span class="bg-clip-text text-transparent  bg-gradient-to-r from-rose-400 to-red-500">
-            Explore opportunities
-          </span>
-        </h1>
-        <div class="flex justify-center gap-8 py-7">
-          <div class="bg-[#F3D5B5] shadow-md rounded-lg p-4 transform  transition duration-500 hover:scale-125">
-            <img
-              src="https://img.freepik.com/free-psd/3d-male-cartoon-character-sitting-dart-that-hits-target_1150-56170.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=ais"
-              alt=""
-            />
-          </div>
-          <div class="bg-[#D9A88F] shadow-md rounded-lg p-4 transform  transition duration-500 hover:scale-125">
-            <img
-              src="https://img.freepik.com/premium-psd/3d-student-waking-book-bulb_1150-56185.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=ais"
-              alt=""
-            />
-          </div>
-          <div class="bg-[#83B5B4] shadow-md rounded-lg p-4 transform  transition duration-500 hover:scale-125">
-            <img
-              src="https://img.freepik.com/premium-psd/business-man-illustration_1150-59019.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=ais"
-              alt=""
-            />
-          </div>
-          <div class="bg-[#C3B6E9] shadow-md rounded-lg p-4 transform  transition duration-500 hover:scale-125">
-            <img
-              src="https://img.freepik.com/premium-photo/cartoon-man-searching-job_780608-11552.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=ais"
-              alt=""
-            />
+          <div className="logo-grid">
+            <Logo image={logo1} speed={5} />
+            <Logo image={logo3} speed={5} />
+            <Logo image={logo4} speed={5} />
+            <Logo image={logo9} speed={5} />
+            <Logo image={logo7} speed={5} />
+            <Logo image={logo2} speed={5} />
+            <Logo image={logo5} speed={5} />
+            <Logo image={logo1} speed={5} />
+            {/* Add more Logo components with different images and speeds */}
           </div>
         </div>
       </div>
 
-      {/* <-- Cards Section-3 --> */}
+      {/* <-- Cards Section-1 --> */}
+      <div>
+        <div class="container mx-auto">
+          <div class="flex justify-center gap-8">
+            <div class="bg-[#E0EEFE] shadow-md rounded-lg p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative">
+              <img src="https://cdn.unstop.com/uploads/images/home/learn-vector-image.png?d=760x404" alt="" />
+              <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 font-serif absolute bottom-0 left-0 right-0 text-center text-2xl font-extrabold mb-4">Learn</h1>
+            </div>
+            <div class="bg-[#ECE9FF] shadow-md rounded-lg p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative">
+              <img src="https://cdn.unstop.com/uploads/images/home/practice-vector-image.png?d=760x404" alt="" />
+              <h1 class="bg-clip-text text-transparent bg-gradient-to-tr from-violet-600 to-orange-300 font-serif absolute bottom-0 left-0 right-0 text-center text-2xl font-extrabold mb-4">Practice</h1>
+            </div>
+            <div class="bg-[#FFF3D8] shadow-md rounded-lg p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative">
+              <img src="https://cdn.unstop.com/uploads/images/home/mentorships-vector-image.png?d=760x404" alt="" />
+              <h1 class="text-orange-500 font-serif absolute bottom-0 left-0 right-0 text-center text-2xl font-extrabold mb-4">Find Jobs</h1>
+            </div>
+          </div>
+        </div>
 
-      <div class="container mx-auto py-7">
-        <h1 class="font-mono italic text-xl font-extrabold leading-10 tracking-tight text-left text-black text-center  sm:leading-none md:text-xl text-xl lg:text-5xl">
-          <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400">
-            Get Hired
-          </span>
-        </h1>
-        <div class="flex justify-center gap-8 py-7">
-    <div class="bg-white shadow-md rounded-lg p-2 md:p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative w-[40%] h-[50%]">
-    <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-600 to-pink-600 font-serif text-center text-xl font-bold">Part-Time Internships</h1>
-      <img src="https://img.freepik.com/free-vector/recruit-agent-analyzing-candidates_74855-4565.jpg?size=626&ext=jpg&ga=GA1.2.695701732.1683486515&semt=ais" alt="" />
-     
-    </div>
-    <div class="bg-white shadow-md rounded-lg p-2 md:p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative w-[40%] h-[50%]">
-    <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-600 to-pink-600 font-serif text-center text-xl font-bold">Full-Time Jobs</h1>
-      <img src="https://img.freepik.com/free-vector/tiny-people-searching-business-opportunities_74855-19928.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=sph" alt="" />
-      
-    </div>
-    <div class="bg-white shadow-md rounded-lg p-2 md:p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative w-[35%] h-[50%]">
-    <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-600 to-pink-600 font-serif  text-center text-xl font-bold">Paid Internships</h1>
-      <img src="https://img.freepik.com/free-vector/male-team-illustration_23-2150184954.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=sph" alt="" />
-      
-    </div>
-  </div>
-      </div>
+
+        {/* <-- Cards Section-2 --> */}
+
+        <div class="container mx-auto py-14">
+          <h1 class="font-serif italic text-xl font-extrabold leading-10 tracking-tight text-left text-black text-center  sm:leading-none md:text-xl text-xl lg:text-5xl">
+            <span class="bg-clip-text text-transparent  bg-gradient-to-r from-rose-400 to-red-500">
+              Explore opportunities
+            </span>
+          </h1>
+          <div class="flex justify-center gap-8 py-7">
+            <div class="bg-[#F3D5B5] shadow-md rounded-lg p-4 transform  transition duration-500 hover:scale-125">
+              <img
+                src="https://img.freepik.com/free-psd/3d-male-cartoon-character-sitting-dart-that-hits-target_1150-56170.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=ais"
+                alt=""
+              />
+            </div>
+            <div class="bg-[#D9A88F] shadow-md rounded-lg p-4 transform  transition duration-500 hover:scale-125">
+              <img
+                src="https://img.freepik.com/premium-psd/3d-student-waking-book-bulb_1150-56185.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=ais"
+                alt=""
+              />
+            </div>
+            <div class="bg-[#83B5B4] shadow-md rounded-lg p-4 transform  transition duration-500 hover:scale-125">
+              <img
+                src="https://img.freepik.com/premium-psd/business-man-illustration_1150-59019.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=ais"
+                alt=""
+              />
+            </div>
+            <div class="bg-[#C3B6E9] shadow-md rounded-lg p-4 transform  transition duration-500 hover:scale-125">
+              <img
+                src="https://img.freepik.com/premium-photo/cartoon-man-searching-job_780608-11552.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=ais"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* <-- Cards Section-3 --> */}
+
+        <div class="container mx-auto py-7">
+          <h1 class="font-mono italic text-xl font-extrabold leading-10 tracking-tight text-left text-black text-center  sm:leading-none md:text-xl text-xl lg:text-5xl">
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400">
+              Get Hired
+            </span>
+          </h1>
+          <div class="flex justify-center gap-8 py-7">
+            <div class="bg-white shadow-md rounded-lg p-2 md:p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative w-[40%] h-[50%]">
+              <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-600 to-pink-600 font-serif text-center text-xl font-bold">Part-Time Internships</h1>
+              <img src="https://img.freepik.com/free-vector/recruit-agent-analyzing-candidates_74855-4565.jpg?size=626&ext=jpg&ga=GA1.2.695701732.1683486515&semt=ais" alt="" />
+
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-2 md:p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative w-[40%] h-[50%]">
+              <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-600 to-pink-600 font-serif text-center text-xl font-bold">Full-Time Jobs</h1>
+              <img src="https://img.freepik.com/free-vector/tiny-people-searching-business-opportunities_74855-19928.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=sph" alt="" />
+
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-2 md:p-4 hover:transform hover:-rotate-3 hover:scale-105 transition duration-300 relative w-[35%] h-[50%]">
+              <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-600 to-pink-600 font-serif  text-center text-xl font-bold">Paid Internships</h1>
+              <img src="https://img.freepik.com/free-vector/male-team-illustration_23-2150184954.jpg?size=626&ext=jpg&ga=GA1.1.695701732.1683486515&semt=sph" alt="" />
+
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* <!-- Newsletter--> */}
